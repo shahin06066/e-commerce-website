@@ -174,6 +174,7 @@ hr.line {
 	background-color: #111;
 	border-radius: 0;
 }
+
 #menu #heading {
 	float: left;
 	padding-left: 15px;
@@ -189,7 +190,7 @@ hr.line {
 }
 #menu .dropdown-menu li > a:hover {
 	color: #ffffff;
-	background-color: #3f3f3f;
+	background-color: #9383f1 !important;
 }
 #menu .dropdown-inner {
 	display: table;
@@ -207,7 +208,7 @@ hr.line {
 	font-size: 12px;
 }
 #menu li.dropdown:hover>a, #menu li.dropdown:focus>a, #menu li.dropdown:active>a{
-	background: #272727;
+	background: #cf7474;
 }
 #menu ul.nav li a{
 	color: #fff;
@@ -215,7 +216,8 @@ hr.line {
 	text-transform: uppercase;
 }
 #menu ul.nav li a:hover{
-	background-color: #3f3f3f;
+	background-color: #d68181;
+	border-radius: 5px;
 }
 #menu .btn-navbar {
 	font-size: 20px;color: #FFF;
