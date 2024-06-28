@@ -252,6 +252,8 @@ hr.line {
 	/* padding: px px; */
 	float: right;
 	border: 1px solid #fff;
+	border: 1px solid red;
+	padding: 4px 6px;
 }
 /* .navv >li{
 	color: white;
