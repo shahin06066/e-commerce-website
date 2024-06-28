@@ -6,9 +6,9 @@
 /* ------------------------------------Html-Body------------------------------- */
 
 body {
-	font-family: 'Ek Mukta',
-	 sans-serif;
-	 color: #666;background-color: #fff;
+	font-family: 'Ek Mukta', sans-serif;
+	 color: #666;
+	 background-color: #fff;
 	 font-size: 16px;
 	 line-height: 1.6em;
 	 font-weight: 400;
@@ -28,8 +28,7 @@ html {
 }
 img{
 	max-width:100%;
-		height: auto;
-		/* width: auto\9; */
+		height: fit-content;
 	}
 
 h1 {
@@ -142,19 +141,21 @@ hr.line {
 
 /* header {padding: 50px 0; } */
 #logo{
-	margin: 5px 0 15px;
+	margin: 5px;
 }
 #cart {
 	float: right;
+	/* border: 1px solid red; */
 	margin-bottom: 5px;
 }
 .form-search input{
-	width: 70%;height: 56px;
+	width: 70%;
+	height: 36px;
 }
 .form-search button {
 	background: #222; 
 	color: #fff;
-	padding: 12px 20px;
+	padding: 2px 8px;
 	font-size: 20px;
 }
 .form-search button:hover {
@@ -212,18 +213,19 @@ hr.line {
 }
 #menu ul.nav li a{
 	color: #fff;
-	padding: 20px ;
+	padding: 10px ;
 	text-transform: uppercase;
 }
 #menu ul.nav li a:hover{
 	background-color: #d68181;
-	border-radius: 5px;
+	border-radius: 4px;
 }
 #menu .btn-navbar {
-	font-size: 20px;color: #FFF;
-	padding: 5px 15px;
+	font-size: 20px;
+	color: #FFF;
+	padding: 5px 8px;
 	float: right;
-	border: 3px solid #fff;
+	border: 1px solid #fff;
 }
 
 @media (min-width: 768px) {
@@ -263,6 +265,7 @@ hr.line {
 /* -----------------------------------Content---------------------------------- */
 /* ---------------------------------------------------------------------------- */
 #page-content{}
+
 #page-content.home-page{
 	margin: 50px 0;
 }
@@ -271,17 +274,18 @@ hr.line {
 }
 #page-content .row{
 	margin-bottom: 30px;
+	/* border: 1px solid red; */
 }
 
 .carousel-inner{
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 
 .carousel-inner > item active > img{
 	
 }
 #img-style{
-	border: 2px solid rgb(0, 255, 64);
+	/* border: 2px solid rgb(0, 255, 64); */
 	max-width: 100% !important;
 }
 
@@ -319,6 +323,12 @@ hr.line {
 	padding: 0 20px;
 	position: relative;
 	white-space: nowrap;
+}
+.breadcrumb > li > a:hover {
+	background-color: #111;
+	color: white;
+	padding: 12px;
+	border-radius: 4px;
 }
 .breadcrumb > li + li:before {
 	content: '';
@@ -614,7 +624,7 @@ footer .copyright a {
 	color: #fff;
 }
 footer .copyright a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 footer .copyright ul li {
 	display: inline-block;
@@ -623,12 +633,12 @@ footer .copyright ul li {
 
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------Form--------------------------------------- */
-/* ---------------------------------------------------------------------------- */
+/* -----------------------------contact form---------------------------------------- */
 .form-group {
 	margin-bottom: 25px;
 }
 .form-group input,.form-group textarea {
-	padding: 10px;
+	padding: 8px;
 }
 .form-group input.form-control {
 	height: auto;
@@ -650,7 +660,7 @@ footer .copyright ul li {
 	display: block;
 }
 .review-form label span {
-	margin: 10px 0;
+	margin: 0;
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -664,7 +674,7 @@ footer .copyright ul li {
 .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
 	background: #272727;
 	border-radius: 0;
-	color: #fff;
+	color:#fff;
 }
 .tab-content {
 	border-right: 1px solid #ccc;
