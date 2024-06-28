@@ -105,7 +105,7 @@ hr.line {
 	 margin: 15px auto;
 	  padding: 0; 
 	  max-width: 90px;
-	  border: 0; 
+	  border: 0;
 	  border-top: solid 5px #ddd;
 	  text-align: center;
 	}
@@ -225,7 +225,7 @@ hr.line {
 #menu .dropdown-inner a {
 	min-width: 160px;
 	display: block;
-	padding: 3px 20px;
+	padding: 8px 20px;
 	clear: both;
 	line-height: 20px;
 	color: #333333;
@@ -237,7 +237,8 @@ hr.line {
 }
 #menu ul.nav li a{
 	color: #fff;
-	padding: ;
+    padding-top: 6px;
+	padding-bottom: 6px;
 	text-transform: uppercase;
 }
 #menu ul.nav li a:hover{
@@ -312,11 +313,11 @@ hr.line {
 }
 #page-content .row{
 	margin-bottom: 30px;
-	/* border: 1px solid red; */
+	/* border: 1px solid red;*/
 }
 
 .carousel-inner{
-	/* border: 2px solid red; */
+	/* border: 2px solid red;*/
 }
 
 .carousel-inner > item active > img{
@@ -361,6 +362,7 @@ hr.line {
 	padding: 0 20px;
 	position: relative;
 	white-space: nowrap;
+	border: 1px solid rebeccapurple;
 }
 .breadcrumb > li > a:hover {
 	background-color: #111;
