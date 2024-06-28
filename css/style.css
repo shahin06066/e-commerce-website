@@ -139,9 +139,29 @@ hr.line {
 	}
 }
 
+/* icon */
+
+.fa-chevron-down{
+	font-size: 20px;
+	color: red;
+}
+
+.fa-chevron-down:hover{
+	color: white;
+}
+.fa-chevron-down:focus{
+	color: white;
+}
+
+
 /* header {padding: 50px 0; } */
 #logo{
-	margin: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.img-logo{
+	height: 38px;
+
 }
 #cart {
 	float: right;
@@ -169,6 +189,9 @@ hr.line {
 	#cart {
 		float: none;
 	}
+	/* .img-logo{
+		overflow: visible;
+	} */
 }
 
 #menu {
@@ -210,23 +233,35 @@ hr.line {
 }
 #menu li.dropdown:hover>a, #menu li.dropdown:focus>a, #menu li.dropdown:active>a{
 	background: #cf7474;
+	color: white;
 }
 #menu ul.nav li a{
 	color: #fff;
-	padding: 10px ;
+	padding: ;
 	text-transform: uppercase;
 }
 #menu ul.nav li a:hover{
 	background-color: #d68181;
+	color: white;
 	border-radius: 4px;
 }
 #menu .btn-navbar {
 	font-size: 20px;
 	color: #FFF;
-	padding: 5px 8px;
+	/* padding: px px; */
 	float: right;
 	border: 1px solid #fff;
 }
+/* .navv >li{
+	color: white;
+	margin: 5px;
+	font-size: 20px;
+
+} */
+/* .navTitle{
+	display: flex;
+	justify-content: space-between;
+} */
 
 @media (min-width: 768px) {
 	#menu .dropdown:hover .dropdown-menu {
@@ -234,6 +269,9 @@ hr.line {
 	}
 }
 @media(max-width:767px) {
+	.navv{
+		display: none;
+	}
 	#menu .navbar-brand {
 		display: block;
 		color: #fff;
@@ -252,7 +290,7 @@ hr.line {
 		color: #fff;
 	}
 	#menu div.dropdown-menu {
-		margin-left: 0 !important;	
+		margin-left: 0 !important;
 		padding-bottom: 10px;
 		background-color: rgba(0, 0, 0, 0.1);
 	}
@@ -482,7 +520,7 @@ hr.line {
 @media screen and (min-width: 768px){
 	.modal-dialog {
 		width:500px;
-		padding-top: 90px
+		padding-top: 90px;
 	}          
 }
 
@@ -618,7 +656,7 @@ footer .footer-4 span{
 
 footer .copyright {
 	background: #393939;
-	padding: 20px 0;
+	padding: 5px 0px;
 }
 footer .copyright a {
 	color: #fff;
@@ -629,6 +667,32 @@ footer .copyright a:hover {
 footer .copyright ul li {
 	display: inline-block;
 	margin-left: 10px;
+}
+
+/* copy right */
+
+ .pull-right{
+
+}
+
+.copy-footer{
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.gsk{
+	
+}
+
+@media screen and (max-width: 768px){
+	.copy-footer{
+	 display: flex;
+	 justify-content: left;
+	}
+	.pull-right{
+		display: none;
+	}
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -691,8 +755,8 @@ footer .copyright ul li {
 .btn.btn-1{
 	 background-color: #222;
 	 color: #fff;
-	 font-size: 25px;
-	 padding: 10px 15px;
+	 font-size: 20px;
+	 padding: 6px 6px;
 	}
 .btn.btn-2{
 	margin-left: 5px;

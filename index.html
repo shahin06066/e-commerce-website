@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<meta name="author"  content="name, https://shahins.netlify.app" >
     <title>Mobile Shop</title>
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css"  type="text/css">
@@ -17,20 +19,30 @@
 	
 	<!-- Core JavaScript Files -->  	 
     <script src="js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	
 </head>
 
 <body>
-
+<!-- top -->
 	<nav id="menu" class="navbar">
 		<div class="container">
-			<div class="navbar-header"><span id="heading" class="visible-xs">Categories</span>
+			 <div class="navbar-header"><span id="heading">
+				<div id="logo"><img class="img-logo" src="images/logofooter.png" /></div></span>
+				<!-- <div>
+					<ul class="nav navbar-nav navv">
+						<li>Home</li>
+						<li>Address</li>
+						<li>Contact</li>
+					</ul>
+				</div> -->
 			  <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
 			</div>
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">PC Computers</a>
+					<li><a href="index.html">Home  <i class="fa-solid fa-chevron-down"></i></a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">PC Computers <i class="fa-solid fa-chevron-down"></i></a>
 						<div class="dropdown-menu">
 							<div class="dropdown-inner">
 								<ul class="list-unstyled">
@@ -40,7 +52,7 @@
 							</div>
 						</div>
 					</li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Laptops &amp; Notebooks</a>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Laptops &amp; Notebooks  <i class="fa-solid fa-chevron-down"></i></a>
 						<div class="dropdown-menu">
 							<div class="dropdown-inner">
 								<ul class="list-unstyled">
@@ -53,7 +65,7 @@
 							</div> 
 						</div>
 					</li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Mobiles &amp; Tablet</a>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Mobiles &amp; Tablet  <i class="fa-solid fa-chevron-down"></i></a>
 						<div class="dropdown-menu" style="margin-left: -203.625px;">
 							<div class="dropdown-inner">
 								<ul class="list-unstyled">
@@ -80,9 +92,9 @@
 							</div>
 						</div>
 					</li>
-					<li><a href="category.html">Software</a></li>
-					<li><a href="contact.html">Contact</a></li>
-					<li><a href="account.html">My Account</a></li>
+					<li><a href="category.html">Software  <i class="fa-solid fa-chevron-down"></i></a></li>
+					<li><a href="contact.html">Contact  <i class="fa-solid fa-chevron-down"></i></a></li>
+					<li><a href="account.html">My Account  <i class="fa-solid fa-chevron-down"></i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -92,18 +104,18 @@
 	<!--Header-->
 	<header class="container">
 		<div class="row">
-			<div class="col-md-4">
-				<div id="logo"><img src="images/logo.png" /></div>
-			</div>
+			<!-- <div class="col-md-4">
+				<div id="logo"><img class="img-logo" src="images/logo.png" /></div>
+			</div> -->
 			<div class="col-md-4">
 				<form class="form-search">  
 					<input type="text" class="input-medium search-query">
 					<button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>  
 				</form>
 			</div>
-			<!-- <div class="col-md-4">
+			 <div class="col-md-4">
 				<div id="cart"><a class="btn btn-1" href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span>CART : 0 ITEM</a></div>
-			</div> -->
+			</div>
 		</div>
 	</header>
 	<!--Navigation-->
@@ -323,7 +335,7 @@
 			<div class="wrap-footer">
 				<div class="row">
 					<div class="col-md-3 col-footer footer-1">
-						<img src="images/logofooter.png" />
+						<img class="img-logo" src="images/logofooter.png" />
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 					<div class="col-md-3 col-footer footer-2">
@@ -357,13 +369,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="copyright">
+		<div class="copyright gsk">
 			<div class="container">
-				<div class="row">
+				<div class="row copy-footer">
 					<div class="col-md-6">
-						<a class="my-identity" href="https://shahins.netlify.com">All rights reserved by Shahin <br>Developed in 2024</a>
+						<a class="my-identity" href="https://shahins.netlify.com"><p>All rights reserved by Shahin <br>Developed in 2024</p></a>
 					</div>
-					<div class="col-md-6">
+					<div class="pull-right">
+						<ul>
+							<li><img src="images/visa-curved-32px.png" /></li>
+							<li><img src="images/paypal-curved-32px.png" /></li>
+							<li><img src="images/discover-curved-32px.png" /></li>
+							<li><img src="images/maestro-curved-32px.png" /></li>
+						</ul>
+					</div>
+					<!-- <div class="col-md-6 master-card">
 						<div class="pull-right">
 							<ul>
 								<li><img src="images/visa-curved-32px.png" /></li>
@@ -372,7 +392,7 @@
 								<li><img src="images/maestro-curved-32px.png" /></li>
 							</ul>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
